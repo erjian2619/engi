@@ -1,0 +1,21 @@
+# Mac OS
+.DS_Store
+
+# NPM
+**/node_modules/
+npm-*
+**/package-lock.json
+**/pnpm-lock.yaml
+
+# IDE
+.idea/
+.vscode/
+.fleet/
+
+test/
+
+# output目录
+lib
+/dist/
+
+简历.*
