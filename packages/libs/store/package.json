@@ -1,0 +1,13 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "nodemon ./src/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

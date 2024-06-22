@@ -2,7 +2,7 @@ import React from "react";
 import { router } from "../../router";
 import { NavLink, To } from "react-router-dom";
 
-type Props {
+type Props =  {
   hide: boolean
 }
 

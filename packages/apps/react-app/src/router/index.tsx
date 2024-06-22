@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet, RouteObject } from "react-router";
 import Home from "../pages/home";
 import RecommendList from "../pages/home/tabs/recommendList";
+import Edu from "../pages/edu";
 
 export interface ExtraBizObject{
   title?: string
@@ -36,7 +37,7 @@ export const router: Array<BARouter> = [
   {
     path: '/edu',
     title: '学堂',
-    element: <div>学堂</div>
+    element: <Edu />
   },
   {
     path: '/explore',
